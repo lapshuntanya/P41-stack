@@ -3,4 +3,5 @@ project(P41_stack)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(P41_stack main.cpp)
+add_executable(P41_stack main.cpp
+        MyStack.h)
